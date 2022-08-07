@@ -1,0 +1,15 @@
+.hero__section {
+  margin-top: 120px;
+}
+
+.hero__section h2 {
+  line-height: 55px;
+}
+
+.hero__section h2 span {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+}
