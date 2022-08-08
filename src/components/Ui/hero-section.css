@@ -4,6 +4,7 @@
 
 .hero__section h2 {
   line-height: 55px;
+  font-size: 2.5rem;
 }
 
 .hero__section h2 span {
@@ -12,4 +13,46 @@
   background-clip: text;
   -webkit-text-stroke: 3px transparent;
   -webkit-text-fill-color: #14141f;
+  margin-left: 7px;
+  display: inline-block;
+}
+
+.hero__btns {
+  margin-top: 30px;
+}
+
+.explore__btn,
+.create__btn {
+  border: none;
+  outline: none;
+  padding: 7px 25px !important;
+  border-radius: 50px !important;
+  border: 1px solid #5142fc !important;
+  font-size: 0.9rem;
+  background: transparent;
+}
+
+.explore__btn i,
+.create__btn i {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.explore__btn a,
+.create__btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero__btns button a:hover {
+  color: #fff;
+}
+
+.hero__img {
+  width: 500px;
+  margin-left: auto;
+}
+
+.hero__img img {
+  border-radius: 10px;
 }
