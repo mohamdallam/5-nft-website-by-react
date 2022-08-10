@@ -1,9 +1,10 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-import HeroSection from "../components/Ui/HeroSection";
-import SellerSection from "../components/Ui/Seller-section/SellerSection";
-import TrendingSection from "../components/Ui/Trending-section/TrendingSection";
-import LiveAction from "./../components/Ui/Live-action/LiveAction";
+
+import HeroSection from "./../components/Ui/1-Hero-section/HeroSection";
+import LiveAction from "../components/Ui/2-Live-action/LiveAction";
+import SellerSection from "../components/Ui/3-Seller-section/SellerSection";
+import TrendingSection from "../components/Ui/4-Trending-section/TrendingSection";
+import StepSection from "./../components/Ui/5-Step-section/StepSection";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <LiveAction />
       <SellerSection />
       <TrendingSection />
+      <StepSection />
     </>
   );
 };

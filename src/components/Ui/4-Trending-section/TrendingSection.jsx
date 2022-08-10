@@ -1,8 +1,8 @@
 import "./trendingsection.css";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { NFT__DATA } from "./../../../assets/data/data";
-import NftCard from "./../Nft-card/NftCard";
+import { NFT__DATA } from "../../../assets/data/data";
+import NftCard from "../Nft-card/NftCard";
 
 const TrendingSection = () => {
   return (

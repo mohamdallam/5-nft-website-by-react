@@ -1,7 +1,7 @@
 import "./sellersection.css";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ava1 from "../../../assets/images/ava-01.png";
+
 import { SELLER__DATA } from "../../../assets/data/data";
 
 const SellerSection = () => {

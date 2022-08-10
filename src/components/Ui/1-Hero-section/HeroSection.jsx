@@ -2,7 +2,7 @@ import "./hero-section.css";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import heroImg from "../../assets/images/hero.jpg";
+import heroImg from "../../../assets/images/hero.jpg";
 
 const HeroSection = () => {
   return (
