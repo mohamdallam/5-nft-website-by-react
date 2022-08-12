@@ -1,0 +1,37 @@
+.form__input {
+  margin-bottom: 15px;
+}
+
+.form__input label {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.form__input input,
+.form__input textarea {
+  width: 100%;
+  padding: 7px 25px;
+  color: #fff;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid rgba(221, 221, 221, 0.192);
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__input .upload__input {
+  padding: 30px 25px;
+}
+
+/* Icon Of Calendar */
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .create__item {
+    margin-top: 15px;
+  }
+}
