@@ -27,9 +27,9 @@ const NAV__LINKS = [
 
 const Header = () => {
   // const headerRef = useRef(null);
-
   const menuRef = useRef(null);
 
+  // 1:38 min
   // useEffect(() => {
   //   window.addEventListener("scroll", () => {
   //     if (
@@ -50,7 +50,7 @@ const Header = () => {
   const toggleMenu = () => menuRef.current.classList.toggle("active__menu");
 
   return (
-    <header className="header">
+    <header className="header header__shrink ">
       <Container>
         <div className="navigation">
           {/* LOGO */}
