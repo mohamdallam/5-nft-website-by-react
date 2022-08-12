@@ -15,6 +15,7 @@ const item = {
   creatorImg: avatar,
   currentBid: 7.89,
 };
+
 const Create = () => {
   return (
     <>
